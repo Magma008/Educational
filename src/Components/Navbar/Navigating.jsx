@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { IoIosArrowDown } from "react-icons/io";
 import { FiMenu } from "react-icons/fi";
 
-const Navbar = () => {
-    const [toggle, setToggle] = useState(false)
+const Navigating = () => {
+    const [toggle, setToggle] = useStatee(false)
     return (
         <div className='bg-slate-900 text-white py-4'>
             <div className="main-container">
@@ -36,4 +36,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navigating

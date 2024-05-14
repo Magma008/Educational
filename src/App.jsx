@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './components/Navbar/Navbar'
+import Navigating from './Components/Navbar/Navigating'
 import Header from './Components/Header/Header'
 import Carousel from './Components/Carousel/Carousel'
 import Body from './Components/Body/Body'
@@ -10,7 +10,7 @@ import Footer from './Components/Footer/Footer'
 const App = () => {
   return (
     <div>
-      <Navbar/>
+      <Navigating/>
       <Header/>
       <div className="py-3 bg-white"></div>
       <Carousel/>
