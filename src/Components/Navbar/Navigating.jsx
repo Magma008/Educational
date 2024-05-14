@@ -3,7 +3,7 @@ import { IoIosArrowDown } from "react-icons/io";
 import { FiMenu } from "react-icons/fi";
 
 const Navigating = () => {
-    const [toggle, setToggle] = useStatee(false)
+    const [toggle, setToggle] = useState(false)
     return (
         <div className='bg-slate-900 text-white py-4'>
             <div className="main-container">
