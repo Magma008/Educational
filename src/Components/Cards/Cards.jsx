@@ -12,7 +12,7 @@ const Cards = () => {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 py-6 pt-[100px] gap-6">
                     <div className="card bg-[#f0f3f6] rounded-md">
-                        <div className="card-img">
+                        <div className="flex justify-center">
                             <img src="/people.png" alt="minicard-img" className="w-[80%] h-[80%]" />
                         </div>
                         <div className="flex flex-col justify-end p-3">
@@ -30,7 +30,7 @@ const Cards = () => {
                     </div>
 
                     <div className="card bg-[#f0f3f6] rounded-md">
-                        <div className="card-img">
+                        <div className="flex justify-center">
                             <img src="/Gaming.png" alt="minicard-img" className="w-[80%] h-[80%]" />
                         </div>
                         <div className="flex flex-col justify-end p-3">
@@ -48,7 +48,7 @@ const Cards = () => {
                     </div>
 
                     <div className="card bg-[#f0f3f6] rounded-md">
-                        <div className="card-img">
+                        <div className="flex justify-center">
                             <img src="/high_five.png" alt="minicard-img" className="w-[80%] h-[80%]" />
                         </div>
                         <div className="flex flex-col justify-end p-3">

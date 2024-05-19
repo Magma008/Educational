@@ -20,30 +20,31 @@ const Carousel = () => {
             <div className="flex justify-center mb-3">
               <h3 className="text-2xl sm:text-3xl md:text-4xl font-semibold">Choose the subject.</h3>
             </div>
-            <div className="flex justify-center">
+            <center>
+              <div className="flex justify-center">
 
-              <Swiper
-                slidesPerView={1}
-                spaceBetween={10}
-                breakpoints={{
-                  448: {
-                    slidesPerView: 2,
-                  },
-                  768: {
-                    slidesPerView: 3,
-                  },
-                  1024: {
-                    slidesPerView: 4,
-                  },
-                }}
-                loop={true}
-                pagination={{
-                  clickable: true,
-                }}
-                navigation={true}
-                modules={[Pagination, Navigation]}
-                className="mySwiper"
-              >
+                <Swiper
+                  slidesPerView={1}
+                  spaceBetween={0}
+                  breakpoints={{
+                    448: {
+                      slidesPerView: 2,
+                    },
+                    768: {
+                      slidesPerView: 3,
+                    },
+                    1024: {
+                      slidesPerView: 4,
+                    },
+                  }}
+                  loop={true}
+                  pagination={{
+                    clickable: true,
+                  }}
+                  navigation={true}
+                  modules={[Pagination, Navigation]}
+                  className="mySwiper"
+                >
                   <SwiperSlide>
                     <div className="card items-center flex flex-col gap-4 w-[10rem] bg-[#eaf0f3] p-3 min-h-[184px]">
                       <div className="p-4 bg-fuchsia-500 rounded-full">
@@ -94,8 +95,9 @@ const Carousel = () => {
                       </center>
                     </div>
                   </SwiperSlide>
-              </Swiper>
-            </div>
+                </Swiper>
+              </div>
+            </center>
           </div>
         </div>
       </div>
